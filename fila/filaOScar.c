@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <locale.h>
-#include <string.h>
+
 
 #define   MAX  4 /* máximo na fila */
 
@@ -29,7 +29,7 @@ void admin (char tecla)
 {
 	switch(tecla)
 	{
-		case '1': adiciona();
+		case '1': adicionaFila();
 		break;
 		
 		case '2': removeFila();
